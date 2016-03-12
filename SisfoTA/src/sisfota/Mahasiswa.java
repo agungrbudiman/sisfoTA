@@ -13,7 +13,9 @@ public class Mahasiswa extends Orang {
     private TugasAkhir tugasAkhir = new TugasAkhir[];
     private int nSKS;
     private boolean StatusKP;
-    private long NIM;
+    private final long NIM;
+    private String judulTA;
+
     
     public Mahasiswa (String Nama, long NIM){
         super(Nama);
@@ -21,7 +23,7 @@ public class Mahasiswa extends Orang {
     }
     
     public void CreateTA(String judulTA){
-        TugasAkhir = new TugasAkhir();
+        tugasAkhir = new TugasAkhir();
         this.judulTA=judulTA;
         System.out.println("Input Dosen Pembimbing : "+super(setNama()));
     }
