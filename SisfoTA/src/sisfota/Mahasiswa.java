@@ -12,9 +12,8 @@ package sisfota;
 public class Mahasiswa extends Orang {
     private TugasAkhir tugasAkhir;
     private int nSKS;
-    private boolean StatusKP;
-    private final long NIM;
-    private String judulTA;
+    private boolean statusKP;
+    private final long nim;
 
     
     public Mahasiswa(long nim,int nSKS, boolean statusKP) {
