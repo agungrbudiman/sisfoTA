@@ -18,6 +18,7 @@ public class SisfoTA {
         // TODO code application logic here
         System.out.println("hello world hello world");
         System.out.println("halo saya disini");
+        System.out.println("halo saya disini");
     }
 
 }

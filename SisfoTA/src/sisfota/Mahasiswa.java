@@ -14,6 +14,7 @@ public class Mahasiswa extends Orang {
     private int nSKS;
     private boolean statusKP;
     private final long nim;
+
     
     public Mahasiswa(long nim,int nSKS, boolean statusKP) {
         this.nim = nim;
